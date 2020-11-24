@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>w3codevs</title>
+    
+    <style>
+        h3.internal{
+            color:#0777E8;
+        }
+        h6{
+            color:#47484B;
+        }
+    
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <h1>Three stylesheet are: </h1>
+       <ol type="1">
+           <li>Inline Stylesheet</li>
+           <li>Internal Stylesheet and</li>
+           <li >External Stylesheet</li>
+       </ol>
+       
+       <h1>Inline Stylesheet <span>It's write in inline in a html tag.</span></h1>
+          <h3 title="w3codevs" style="color: #1DBF73;">I'm Student of W3codevs</h3>
+        
+          <xmp>
+              <p>wite inline css in inline html tag.</p>
+               <h3 style="color: #1DBF73;">Dhaka is the capital of Bangladesh</h3>
+          </xmp>
+      
+       <h1>Internal Stylesheet <span>It's write in head tag. </span></h1>
+          <h3 class="internal" title="w3codevs">I'm Student of W3codevs</h3>
+          
+          <xmp>
+               <p>wite in head tag in HTML File</p>
+                                
+                <head>
+                    <meta charset="UTF-8">
+
+                    <title>w3codevs</title>
+
+                    <style>
+
+                        h3.internal{ color:#0777E8; }
+
+                    </style>
+
+                </head>
+                
+          </xmp>
+          
+          <h1>External Stylesheet <span>It's write in external file and need to it link with html file. </span></h1>
+           <h3 class="external" title="w3codevs">I'm Student of W3codevs</h3>
+          <xmp>
+                <p>wite in style.css</p>
+                   
+                    h3.external{ color:#EA6122;}
+          </xmp>
+          
+          <h4>Note: First Piority in inline Stylesheet, 2nd Piority in internal and last piority in External Stylesheet. <br> But, If you link external css file after internal stylesheet then it work first one internal Stylesheet. </h4>
+       
+       
+       <h6 class="external" title="w3codevs">I'm Student of W3codevs</h6>
+       
+        <xmp>
+        <p>For this we need to write this way</p>
+
+        <head>
+            <meta charset="UTF-8">
+
+            <title>w3codevs</title>
+
+            <style>
+
+                h3.internal{ color:#0777E8; }
+
+            </style>
+             <link rel="stylesheet" href="style.css">  
+
+        </head>   
+
+        </xmp>
+       
+   
+</body>
+</html>
